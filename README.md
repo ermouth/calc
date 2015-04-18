@@ -39,11 +39,11 @@ Site gives average price $1815,5.
 
 If out-of-bounds x and y passed, `null` is returned.
 
-## Big grids and bound function
+## Big grids and bounding function
 Grids can be larger then 3×3 – so interpolation space become picewise linear. 
 The only restriction – both axes must monotonically increase.
 
-There can be bound function, passed as second argument. Bound function allows to extend arguments range out of 
+Also you can pass bounding function as a second argument. Bounding function allows to extend arguments’ range out of 
 grid bounds. Function must return `false` if pair is invalid.
 ```javascript
 // Multiplication for non-negatives, 
