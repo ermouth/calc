@@ -12,15 +12,15 @@ You need price for 32 pages and 700 copies.
 var fprice = calc.gen(
   [// ↓ precision 
     [ 0.5,   24,    64],
-    [ 100,   741,   1643],
+    [ 500,   741,   1643],
     [ 1000,  995,   2216]
   ]
 );
 // Now fprice is ready-to-use interpolator function.
 
-console.log(fprice(32, 700)); // Prints 1133.5
+console.log(fprice(32, 700)); // Prints 1048.5
 ```
-Calculator at real site gives us $1124, less then 1% difference.
+Calculator at real site gives us $1124, about 7% difference, that is acceptable for quick estimation.
 
 Another example. Air transport of 100kg and 250kg freight from Moscow to London is ~$1030 and $2570, distance is 2500km. Same freights from Moscow to Oslo – $980 and $2480, 1600km. Prices taken from [here](http://worldfreightrates.com/en/freight).
 
