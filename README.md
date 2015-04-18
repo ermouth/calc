@@ -20,7 +20,8 @@ var fprice = calc.gen(
 
 console.log(fprice(32, 700)); // Prints 1048.5
 ```
-Calculator at real site gives us $1124, about 7% difference, that is acceptable for quick estimation.
+Calculator at real site gives us $1124, about 7% difference, that is acceptable for quick estimation, 
+although we better have more dense source price grid.
 
 Another example. Air transport of 100kg and 250kg freight from Moscow to London is ~$1030 and $2570, distance is 2500km. Same freights from Moscow to Oslo – $980 and $2480, 1600km. Prices taken from [here](http://worldfreightrates.com/en/freight).
 
@@ -61,4 +62,4 @@ There are several other members of `calc`. They are documented right inside sour
 
 ---
 
-© 2015 ermouth. CoverCouch is MIT-licensed.
+© 2015 ermouth. calc.js is MIT-licensed.
