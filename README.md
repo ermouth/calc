@@ -59,3 +59,6 @@ console.log(intmul (-5, 8));    // Prints null
 ## Other stuff
 There are several other members of `calc`. They are documented right inside source code.
 
+---
+
+© 2015 ermouth. CoverCouch is MIT-licensed.
