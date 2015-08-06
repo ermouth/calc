@@ -1,7 +1,7 @@
 # calc.js
 Interpolates intermediate values of z(x,y) using pre-defined grid of values. Creates facet of bi-linear forms using set of known z values at (x,y) grid.
 
-Requires SugarJS. Usage `<script src="calc-1.2.js"></script>`
+Requires SugarJS. Usage `<script src="calc-1.3.js"></script>`
 
 ## What is it?
 Sometimes you know only several values of dependency z(x,y) and need to estimate values inbetween. For example, you know that 500 copies of 24-page magazine is $741, 1000 copies is $995, and for 64 pages prices are $1643 and $2216. Prices are real and taken from [here](http://www.heidelprint.com/CatalogPrinting_MagazinePrinting_InstantQuote.php). 
